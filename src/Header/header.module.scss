@@ -1,0 +1,12 @@
+@use '../Components/style.scss' as lm;
+  header {
+  @extend %base-style;
+  height: 8vh;
+  nav {
+    @include lm.nav-style(80vw, 2vh);
+    ul{
+  @include lm.ul-style(50vw, 2vh);
+    }
+  }
+}
+

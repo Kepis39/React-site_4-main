@@ -1,0 +1,26 @@
+
+%base-style {
+    width: 99.2vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%base-footer-style {
+    width: 99.2vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin nav-style($width,$height){
+     width: 80vw;
+    height: 2vh;
+    display: flex;
+    justify-content: space-around;
+}
+@mixin ul-style($width,$height){
+    width: 50vw;
+     display: flex;
+    justify-content: space-evenly;
+}
